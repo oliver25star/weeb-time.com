@@ -1,0 +1,37 @@
+*{
+   margin:0;
+   padding:0
+}
+header {
+    background-image :linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('image.png');
+     height:100vh;
+     background-image:cover;
+     background-size: 100%;
+}
+.container {
+     width:1200px;
+     margin:auto;
+}
+.logo img {
+width: 140px;
+     height:auto
+}
+
+.nav-main {
+     float: right;
+}
+.nav-main li {
+     List-style: none;
+     display: inline-block;
+     margin-right:20px;
+}
+.nav-main li a {
+text-decoration:none;
+font-size: 20px;
+padding:20px 30px;
+text-transform: uppercase;
+color:white;
+}
+.nav-main li .active {
+    border:1px solid rgb(255, 255, 255);
+ }
